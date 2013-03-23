@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7225D38116FA81C700E04DC2 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7225D38016FA81C700E04DC2 /* HomeViewController.m */; };
+		7225D38416FA858300E04DC2 /* HomeViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7225D38316FA858300E04DC2 /* HomeViewCell.m */; };
+		7225D38916FA99CD00E04DC2 /* katy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7225D38816FA99CD00E04DC2 /* katy.jpg */; };
+		7280BD5216FCEA130008F4B9 /* perry.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 7280BD5116FCEA130008F4B9 /* perry.bmp */; };
+		7298413A16F10AED00B7BFB7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7298413916F10AED00B7BFB7 /* UIKit.framework */; };
+		7298413C16F10AED00B7BFB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7298413B16F10AED00B7BFB7 /* Foundation.framework */; };
+		7298413E16F10AED00B7BFB7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7298413D16F10AED00B7BFB7 /* CoreGraphics.framework */; };
+		7298414416F10AED00B7BFB7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7298414216F10AED00B7BFB7 /* InfoPlist.strings */; };
+		7298414616F10AED00B7BFB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7298414516F10AED00B7BFB7 /* main.m */; };
+		7298414A16F10AED00B7BFB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7298414916F10AED00B7BFB7 /* AppDelegate.m */; };
+		7298414C16F10AED00B7BFB7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7298414B16F10AED00B7BFB7 /* Default.png */; };
+		7298414E16F10AED00B7BFB7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7298414D16F10AED00B7BFB7 /* Default@2x.png */; };
+		7298415016F10AED00B7BFB7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7298414F16F10AED00B7BFB7 /* Default-568h@2x.png */; };
+		7298415316F10AED00B7BFB7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7298415116F10AED00B7BFB7 /* MainStoryboard.storyboard */; };
+		7298415616F10AED00B7BFB7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7298415516F10AED00B7BFB7 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7225D37F16FA81C700E04DC2 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		7225D38016FA81C700E04DC2 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		7225D38216FA858300E04DC2 /* HomeViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewCell.h; sourceTree = "<group>"; };
+		7225D38316FA858300E04DC2 /* HomeViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewCell.m; sourceTree = "<group>"; };
+		7225D38816FA99CD00E04DC2 /* katy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = katy.jpg; sourceTree = "<group>"; };
+		7280BD5116FCEA130008F4B9 /* perry.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = perry.bmp; sourceTree = "<group>"; };
+		7298413516F10AED00B7BFB7 /* tarea1Vita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tarea1Vita.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7298413916F10AED00B7BFB7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7298413B16F10AED00B7BFB7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7298413D16F10AED00B7BFB7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7298414116F10AED00B7BFB7 /* tarea1Vita-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tarea1Vita-Info.plist"; sourceTree = "<group>"; };
+		7298414316F10AED00B7BFB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7298414516F10AED00B7BFB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7298414716F10AED00B7BFB7 /* tarea1Vita-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tarea1Vita-Prefix.pch"; sourceTree = "<group>"; };
+		7298414816F10AED00B7BFB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7298414916F10AED00B7BFB7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7298414B16F10AED00B7BFB7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7298414D16F10AED00B7BFB7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7298414F16F10AED00B7BFB7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7298415216F10AED00B7BFB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		7298415416F10AED00B7BFB7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7298415516F10AED00B7BFB7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7298413216F10AED00B7BFB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7298413A16F10AED00B7BFB7 /* UIKit.framework in Frameworks */,
+				7298413C16F10AED00B7BFB7 /* Foundation.framework in Frameworks */,
+				7298413E16F10AED00B7BFB7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7225D37D16FA817600E04DC2 /* HomeView1 */ = {
+			isa = PBXGroup;
+			children = (
+				7225D37F16FA81C700E04DC2 /* HomeViewController.h */,
+				7225D38016FA81C700E04DC2 /* HomeViewController.m */,
+				7225D38216FA858300E04DC2 /* HomeViewCell.h */,
+				7225D38316FA858300E04DC2 /* HomeViewCell.m */,
+			);
+			name = HomeView1;
+			sourceTree = "<group>";
+		};
+		72787B0816F3EC0800EBEEFB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7225D37D16FA817600E04DC2 /* HomeView1 */,
+				72787B0A16F3EC2000EBEEFB /* Login_View */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		72787B0A16F3EC2000EBEEFB /* Login_View */ = {
+			isa = PBXGroup;
+			children = (
+				7298415416F10AED00B7BFB7 /* ViewController.h */,
+				7298415516F10AED00B7BFB7 /* ViewController.m */,
+			);
+			name = Login_View;
+			sourceTree = "<group>";
+		};
+		7298412A16F10AED00B7BFB7 = {
+			isa = PBXGroup;
+			children = (
+				7298413F16F10AED00B7BFB7 /* tarea1Vita */,
+				7298413816F10AED00B7BFB7 /* Frameworks */,
+				7298413616F10AED00B7BFB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7298413616F10AED00B7BFB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7298413516F10AED00B7BFB7 /* tarea1Vita.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7298413816F10AED00B7BFB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7298413916F10AED00B7BFB7 /* UIKit.framework */,
+				7298413B16F10AED00B7BFB7 /* Foundation.framework */,
+				7298413D16F10AED00B7BFB7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7298413F16F10AED00B7BFB7 /* tarea1Vita */ = {
+			isa = PBXGroup;
+			children = (
+				72787B0816F3EC0800EBEEFB /* Controllers */,
+				7298414816F10AED00B7BFB7 /* AppDelegate.h */,
+				7225D38816FA99CD00E04DC2 /* katy.jpg */,
+				7280BD5116FCEA130008F4B9 /* perry.bmp */,
+				7298414916F10AED00B7BFB7 /* AppDelegate.m */,
+				7298415116F10AED00B7BFB7 /* MainStoryboard.storyboard */,
+				7298414016F10AED00B7BFB7 /* Supporting Files */,
+			);
+			path = tarea1Vita;
+			sourceTree = "<group>";
+		};
+		7298414016F10AED00B7BFB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7298414116F10AED00B7BFB7 /* tarea1Vita-Info.plist */,
+				7298414216F10AED00B7BFB7 /* InfoPlist.strings */,
+				7298414516F10AED00B7BFB7 /* main.m */,
+				7298414716F10AED00B7BFB7 /* tarea1Vita-Prefix.pch */,
+				7298414B16F10AED00B7BFB7 /* Default.png */,
+				7298414D16F10AED00B7BFB7 /* Default@2x.png */,
+				7298414F16F10AED00B7BFB7 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7298413416F10AED00B7BFB7 /* tarea1Vita */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7298415916F10AED00B7BFB7 /* Build configuration list for PBXNativeTarget "tarea1Vita" */;
+			buildPhases = (
+				7298413116F10AED00B7BFB7 /* Sources */,
+				7298413216F10AED00B7BFB7 /* Frameworks */,
+				7298413316F10AED00B7BFB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tarea1Vita;
+			productName = tarea1Vita;
+			productReference = 7298413516F10AED00B7BFB7 /* tarea1Vita.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7298412C16F10AED00B7BFB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = SDA;
+			};
+			buildConfigurationList = 7298412F16F10AED00B7BFB7 /* Build configuration list for PBXProject "tarea1Vita" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7298412A16F10AED00B7BFB7;
+			productRefGroup = 7298413616F10AED00B7BFB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7298413416F10AED00B7BFB7 /* tarea1Vita */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7298413316F10AED00B7BFB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7298414416F10AED00B7BFB7 /* InfoPlist.strings in Resources */,
+				7298414C16F10AED00B7BFB7 /* Default.png in Resources */,
+				7298414E16F10AED00B7BFB7 /* Default@2x.png in Resources */,
+				7298415016F10AED00B7BFB7 /* Default-568h@2x.png in Resources */,
+				7298415316F10AED00B7BFB7 /* MainStoryboard.storyboard in Resources */,
+				7225D38916FA99CD00E04DC2 /* katy.jpg in Resources */,
+				7280BD5216FCEA130008F4B9 /* perry.bmp in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7298413116F10AED00B7BFB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7298414616F10AED00B7BFB7 /* main.m in Sources */,
+				7298414A16F10AED00B7BFB7 /* AppDelegate.m in Sources */,
+				7298415616F10AED00B7BFB7 /* ViewController.m in Sources */,
+				7225D38116FA81C700E04DC2 /* HomeViewController.m in Sources */,
+				7225D38416FA858300E04DC2 /* HomeViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7298414216F10AED00B7BFB7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7298414316F10AED00B7BFB7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7298415116F10AED00B7BFB7 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7298415216F10AED00B7BFB7 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7298415716F10AED00B7BFB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7298415816F10AED00B7BFB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7298415A16F10AED00B7BFB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tarea1Vita/tarea1Vita-Prefix.pch";
+				INFOPLIST_FILE = "tarea1Vita/tarea1Vita-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7298415B16F10AED00B7BFB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tarea1Vita/tarea1Vita-Prefix.pch";
+				INFOPLIST_FILE = "tarea1Vita/tarea1Vita-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7298412F16F10AED00B7BFB7 /* Build configuration list for PBXProject "tarea1Vita" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7298415716F10AED00B7BFB7 /* Debug */,
+				7298415816F10AED00B7BFB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7298415916F10AED00B7BFB7 /* Build configuration list for PBXNativeTarget "tarea1Vita" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7298415A16F10AED00B7BFB7 /* Debug */,
+				7298415B16F10AED00B7BFB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7298412C16F10AED00B7BFB7 /* Project object */;
+}
